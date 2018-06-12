@@ -40,7 +40,8 @@ document.addEventListener("DOMContentLoaded", function() {
           if(nameLast == 'box') {
 
               TweenMax.to('.holder',2,{alpha: 0, y: "+=50", ease: Power4.easeInOut, onComplete: function(){ deferred.resolve(); }}) //onComplete      
-          
+              TweenMax.to('.bg', 1.6, {delay: .7, width:100, height:100, margin: 0, alpha: 0, transformOrigin: 50});
+
           }
           
 
@@ -65,7 +66,20 @@ document.addEventListener("DOMContentLoaded", function() {
 
             if(nameLastEnter == 'photo1') {     
                 //goTrg();
-                TweenMax.from('.holder', 1.6, {delay: .5, alpha: 0, y: "+=50"}) 
+                TweenMax.from('.holder', 1, {delay: 2, alpha: 0, y: "+=50"});
+                TweenMax.from('.bg', 1.5, {delay: .7, y: "+=50", scaleX:1, scaleY:1, alpha: 0, transformOrigin:"50% 50% 0"});
+
+                // var mySplitText = new SplitText("#intro", {type:"chars, words"}),
+                //     tl = new TimelineLite(),
+                //     numChars = mySplitText.chars.length;
+
+                // for(var i = 0; i < numChars; i++){
+                //   //random value used as position parameter
+                //   tl.from(mySplitText.chars[i], 2, {opacity:0}, Math.random() * 2);
+                // }
+
+
+
             }
             else if (nameLastEnter == 'page2') {    
                 TweenMax.set('.holder',{onComplete: goTrg ,x:- wScreen})    

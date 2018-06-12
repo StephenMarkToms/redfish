@@ -4,3 +4,42 @@
 	src: url("fonts/Didot-Bold.woff") format("woff");
 
 }
+
+@font-face {
+
+	font-family: "NHaasGroteskTXPro-55Rg";
+	src: url("fonts/NHaasGroteskTXPro-55Rg.woff") format("woff");
+
+}
+
+@font-face {
+
+	font-family: "NHaasGroteskTXPro-75Bd";
+	src: url("fonts/NHaasGroteskTXPro-75Bd.woff") format("woff");
+
+}
+
+
+
+@font-face {
+
+	font-family: "gordita-regular";
+	src: url("fonts/gordita-regular-webfont.woff") format("woff");
+
+}
+
+@font-face {
+
+	font-family: "gordita-bold";
+	src: url("fonts/gordita-bold-webfont.woff") format("woff");
+
+}
+
+@font-face {
+
+	font-family: "Canela-Light";
+	src: url("fonts/Canela-Light.woff") format("woff");
+
+}
+
+
