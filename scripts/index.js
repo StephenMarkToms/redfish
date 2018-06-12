@@ -65,18 +65,19 @@ document.addEventListener("DOMContentLoaded", function() {
             }
 
             if(nameLastEnter == 'photo1') {     
-                //goTrg();
-                TweenMax.from('.holder', 1, {delay: 2, alpha: 0, y: "+=50"});
-                TweenMax.from('.bg', 1.5, {delay: .7, y: "+=50", scaleX:1, scaleY:1, alpha: 0, transformOrigin:"50% 50% 0"});
 
-                // var mySplitText = new SplitText("#intro", {type:"chars, words"}),
-                //     tl = new TimelineLite(),
-                //     numChars = mySplitText.chars.length;
+                //TweenMax.from('#name', 1, {delay: .5, y: "+=50", alpha: 0});
 
-                // for(var i = 0; i < numChars; i++){
-                //   //random value used as position parameter
-                //   tl.from(mySplitText.chars[i], 2, {opacity:0}, Math.random() * 2);
-                // }
+                //TweenMax.from('.bg', 1.5, {delay: .7, scaleX:1, scaleY:1, alpha: 0, transformOrigin:"50% 50% 0"});
+
+                var mySplitText = new SplitText("#intro", {delay: 3,type:"chars, words"}),
+                    tl = new TimelineLite(),
+                    numChars = mySplitText.chars.length;
+
+                for(var i = 0; i < numChars; i++){
+                  //random value used as position parameter
+                  tl.from(mySplitText.chars[i], 5, {opacity:0}, Math.random() * 2);
+                }
 
 
 
