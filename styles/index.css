@@ -1,24 +1,24 @@
 body {
   
   /*background-color:#2b2b2b;*/
-  background-color: #000;
-  color: #fff;
-  background-color: white;
+  background-color: #decfc4;
+  color: #000;
   font-family: Canela-Light;
 
+  padding-top: 8rem;
 
 }
 
 a {
 
-	color: rgba(255, 255, 255, 0.3);
+	color: rgba(55, 55, 55, 0.9);
 
 }
 
 
 a:hover {
 	
-	color: white;
+	color: black;
 	text-decoration: none;
 
 }
@@ -52,25 +52,28 @@ h1 {
 #title {
 
 	letter-spacing: 1rem;
-	z-index: 100;
-
-}
-
-#nav {
-
-	line-height: 2em;
-
-}
-
-.featureImg {
-
-	position: absolute;
-	top: 10%;
-	left: 70%;
-	z-index: 0;
-
 
 }
 
 
+.navbar{
 
+	 background-color: rgba(0,0,0,0.0);
+
+}
+
+
+.navbar .navbar-brand{
+
+	font-size: 2rem;
+
+}
+
+.thumb-post img {
+
+  object-fit: none; /* Do not scale the image */
+  object-position: center; /* Center the image within the element */
+  width: 100%;
+  max-height: 350px;
+  margin-bottom: 1rem;
+}

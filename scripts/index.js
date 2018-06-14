@@ -66,7 +66,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
             if(nameLastEnter == 'photo1') {     
 
-                TweenMax.from('#title', 1, {delay: .5, y: "+=50", alpha: 0});
+                //TweenMax.from('#title', 1, {delay: .5, y: "+=50", alpha: 0});
 
                 
                 var mySplitText = new SplitText("#intro", {delay: 3,type:"chars, words"}),
@@ -81,11 +81,11 @@ document.addEventListener("DOMContentLoaded", function() {
                 //TweenMax.to('.bg', 3, {delay: 7.5, scaleX:.9, scaleY:.9, transformOrigin:"50% 50% 0", ease: Power3.easeOut});
 
                    
-                var splitTitle = new SplitText("#nav", {type:"words"}),
-                    t2 = new TimelineLite(),
-                    numChars = splitTitle.words.length;
+                // var splitTitle = new SplitText("#nav", {type:"words"}),
+                //     t2 = new TimelineLite(),
+                //     numChars = splitTitle.words.length;
 
-                TweenMax.staggerFrom(splitTitle.words, 1, {delay: 5.5, alpha: 0, y: "+=40"}, .5);
+                // TweenMax.staggerFrom(splitTitle.words, 1, {delay: 5.5, alpha: 0, y: "+=40"}, .5);
 
 
 
@@ -143,7 +143,7 @@ document.addEventListener("DOMContentLoaded", function() {
         clientId: '1b3d6496db554e818b3e0244b6e5ad45',
         accessToken: '1308885914.1b3d649.ee291f0bcb7b42eba3adce2daf506908',
         resolution: 'standard_resolution',
-        limit: 1,
+        limit: 3,
         template: '<img src="{{image}}" class="img-fluid">',
         sortBy: 'most-recent'
       });
