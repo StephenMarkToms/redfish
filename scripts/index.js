@@ -66,18 +66,27 @@ document.addEventListener("DOMContentLoaded", function() {
 
             if(nameLastEnter == 'photo1') {     
 
-                //TweenMax.from('#name', 1, {delay: .5, y: "+=50", alpha: 0});
+                TweenMax.from('#title', 1, {delay: .5, y: "+=50", alpha: 0});
 
-                //TweenMax.from('.bg', 1.5, {delay: .7, scaleX:1, scaleY:1, alpha: 0, transformOrigin:"50% 50% 0"});
-
+                
                 var mySplitText = new SplitText("#intro", {delay: 3,type:"chars, words"}),
                     tl = new TimelineLite(),
                     numChars = mySplitText.chars.length;
 
                 for(var i = 0; i < numChars; i++){
                   //random value used as position parameter
-                  tl.from(mySplitText.chars[i], 5, {opacity:0}, Math.random() * 2);
+                  tl.from(mySplitText.chars[i], 1.5, {delay: 2, opacity:0}, Math.random() * 2);
                 }
+
+                //TweenMax.to('.bg', 3, {delay: 7.5, scaleX:.9, scaleY:.9, transformOrigin:"50% 50% 0", ease: Power3.easeOut});
+
+                   
+                var splitTitle = new SplitText("#nav", {type:"words"}),
+                    t2 = new TimelineLite(),
+                    numChars = splitTitle.words.length;
+
+                TweenMax.staggerFrom(splitTitle.words, 1, {delay: 5.5, alpha: 0, y: "+=40"}, .5);
+
 
 
 
@@ -117,8 +126,29 @@ document.addEventListener("DOMContentLoaded", function() {
       //check to see what page is loading and then switch the variable below appropriately
       nameLastEnter = 'photo1';
 
+      instaFeed();
+
       ExpandTransition.beforeEnter();
       firstVisit = false;
+
+    }
+
+
+
+    function instaFeed(){
+
+        var userFeed = new Instafeed({
+        get: 'user',
+        userId: '1308885914',
+        clientId: '1b3d6496db554e818b3e0244b6e5ad45',
+        accessToken: '1308885914.1b3d649.ee291f0bcb7b42eba3adce2daf506908',
+        resolution: 'standard_resolution',
+        limit: 1,
+        template: '<img src="{{image}}" class="img-fluid">',
+        sortBy: 'most-recent'
+      });
+      userFeed.run();
+
 
     }
 
