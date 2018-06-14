@@ -5,7 +5,7 @@ body {
   color: #000;
   font-family: Canela-Light;
 
-  padding-top: 8rem;
+  padding-top: 9rem;
 
 }
 
@@ -72,13 +72,20 @@ h1 {
 .thumb-post img {
 
   object-fit: none; /* Do not scale the image */
-  object-position: center; /* Center the image within the element */
-  width: 100%;
+  object-position: top; /* Center the image within the element */
+  width: 30%;
   max-height: 350px;
   margin-bottom: 1rem;
-  
+
+  margin-left: 1rem;
+
 }
 
 
+#self{
 
+	
+
+
+}
 

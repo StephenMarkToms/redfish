@@ -88,7 +88,7 @@ document.addEventListener("DOMContentLoaded", function() {
                 // TweenMax.staggerFrom(splitTitle.words, 1, {delay: 5.5, alpha: 0, y: "+=40"}, .5);
 
                 TweenMax.from('.thumb-post', 1.5, { delay: .5, y: "+=60", alpha:0, ease: Power2.easeOut}, 0.5);
-                TweenMax.from('#self', 1.5, { delay: 1, y: "+=60", alpha:0, ease: Power2.easeOut}, 0.5);
+                TweenMax.from('#self', 1.5, { delay: 1, y: "+=60", alpha:0, ease: Power2.easeOut});
 
 
             }
@@ -145,12 +145,12 @@ document.addEventListener("DOMContentLoaded", function() {
         accessToken: '1308885914.1b3d649.ee291f0bcb7b42eba3adce2daf506908',
         resolution: 'standard_resolution',
         limit: 20,
-        template: '<img src="{{image}}" class="inline">',
-        sortBy: 'random',
+        template: '<img src="{{image}}" class="d-inline img-responsive">',
+        sortBy: 'most-recent',
 
         after: function () {
             var images = $("#instafeed").find('img');
-            $(images.slice(1, images.length)).remove();
+            $(images.slice(9, images.length)).remove();
         }
 
       });
