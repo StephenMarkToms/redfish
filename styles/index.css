@@ -5,7 +5,7 @@ html {
 body {
 
 
- 	background-image:  url("https://blendingpoint.com/images/jenah/pattern2.png"), linear-gradient(to bottom, #e1bdb1 0%, #ffffff 100%);
+ 	background-image:  url("../imgs/pattern.png"), linear-gradient(to bottom, #e1bdb1 0%, #ffffff 100%);
 
   	color: #000;
   	font-family: 'Playfair Display', serif;
@@ -28,7 +28,8 @@ body {
 	font-family: Distorted-Fashion-Regular;
 	color: #cdbfbf;
 	margin-bottom: 3em;
-	letter-spacing: 1rem;
+	letter-spacing: 1em;
+	margin-top: 1em;
 
 }
 
@@ -58,7 +59,16 @@ p{
 
 .navbar-brand{
 
-	font-family: Distorted-Fashion-Italic;
+	font-family: Distorted-Fashion-Regular;
+
+	font-size: 2rem;
+
+}
+
+.nav-link{
+
+	font-size: 1.5rem;
+	padding: 1rem;
 
 }
 
@@ -101,13 +111,6 @@ a:hover {
 }
 
 
-h4 {
-
-
-
-
-}
-
 
 .bg {
 
@@ -136,11 +139,6 @@ h4 {
 }
 
 
-.navbar .navbar-brand{
-
-	font-size: 2rem;
-
-}
 
 .thumb-post img {
 

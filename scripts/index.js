@@ -127,7 +127,7 @@ document.addEventListener("DOMContentLoaded", function() {
       //check to see what page is loading and then switch the variable below appropriately
       nameLastEnter = 'photo1';
 
-      instaFeed();
+      //instaFeed();
 
       ExpandTransition.beforeEnter();
       firstVisit = false;
