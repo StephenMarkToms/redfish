@@ -1,13 +1,85 @@
-body {
-  
-  /*background-color:#2b2b2b;*/
-  background-color: #decfc4;
-  color: #000;
-  font-family: Canela-Light;
+html {
+    height: 100%;
+}
 
-  padding-top: 9rem;
+body {
+
+
+ 	background-image:  url("https://blendingpoint.com/images/jenah/pattern2.png"), linear-gradient(to bottom, #e1bdb1 0%, #ffffff 100%);
+
+  	color: #000;
+  	font-family: 'Playfair Display', serif;
+
+  	padding-top: 9rem;
+
+	height: 100%;
+	margin: 0;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+
+	overflow-x:hidden;
+
+
 
 }
+
+#tagline{
+
+	font-family: Distorted-Fashion-Regular;
+	color: #cdbfbf;
+	margin-bottom: 3em;
+	letter-spacing: 1rem;
+
+}
+
+p{
+
+	font-size: 2em;
+	color: #958580;
+
+}
+
+
+.allowFlow{
+
+	overflow-x: hidden;
+
+}
+
+.impact{
+
+	font-size: 12em;
+	color:white;
+	font-family: Distorted-Fashion-Italic;
+	font-weight: thin;
+	letter-spacing: 1.5rem;
+
+}
+
+.navbar-brand{
+
+	font-family: Distorted-Fashion-Italic;
+
+}
+
+
+.block-divider{
+
+	height: 50em;
+	margin: 0;
+	margin-left: -15em;
+	margin-top: 20em;
+	padding: 0;
+
+	color:white;
+	background-color: linear-gradient(to top, #e1bdb1 0%, #ffffff 100%);;
+	width: 150%;
+
+
+
+}
+
+
 
 a {
 
@@ -29,9 +101,10 @@ a:hover {
 }
 
 
-h1 {
+h4 {
 
-	font-family: Canela-Light;
+
+
 
 }
 

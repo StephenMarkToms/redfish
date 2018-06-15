@@ -43,3 +43,16 @@
 }
 
 
+@font-face {
+
+	font-family: "Distorted-Fashion-Italic";
+	src: url("fonts/Distorted-Fashion-Italic.woff") format("woff");
+
+}
+
+@font-face {
+
+	font-family: "Distorted-Fashion-Regular";
+	src: url("fonts/Distorted-Fashion-Regular.ttf") format("ttf");
+
+}
