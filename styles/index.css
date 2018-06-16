@@ -200,3 +200,26 @@ a:hover {
 
 
 
+@media only screen and (max-width: 577px) {
+
+
+  .intro p{
+
+    margin-left: 6em;
+
+  }
+
+
+}
+
+@media only screen and (max-width: 577px) {
+
+
+	.intro p{
+
+		margin-top: 2em;
+
+	}
+
+
+}
