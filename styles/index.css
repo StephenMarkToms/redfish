@@ -180,7 +180,7 @@ a:hover {
 
 .navbar{
 
-	 background-color: rgba(0,0,0,0.0);
+	 background: #e1bdb1;
 
 }
 
@@ -200,12 +200,28 @@ a:hover {
 
 
 
-@media only screen and (max-width: 577px) {
+@media only screen and (max-width: 320px) {
 
 
   .intro p{
 
-    margin-left: 6em;
+    margin-left: 6.6em;
+    margin-top: 2em;
+    font-size: 1em;
+    width: 90%;
+    height: 30%;
+
+  }
+
+  body{
+
+  	padding-top: 5em;
+
+  }
+
+  .primary-photo{
+
+  	width: 130%;
 
   }
 
@@ -217,7 +233,7 @@ a:hover {
 
 	.intro p{
 
-		margin-top: 2em;
+
 
 	}
 
