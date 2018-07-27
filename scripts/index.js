@@ -69,14 +69,14 @@ document.addEventListener("DOMContentLoaded", function() {
                 //TweenMax.from('#title', 1, {delay: .5, y: "+=50", alpha: 0});
 
                 
-                var mySplitText = new SplitText("#intro", {delay: 3,type:"chars, words"}),
-                    tl = new TimelineLite(),
-                    numChars = mySplitText.chars.length;
+                // var mySplitText = new SplitText("#intro", {delay: 3,type:"chars, words"}),
+                //     tl = new TimelineLite(),
+                //     numChars = mySplitText.chars.length;
 
-                for(var i = 0; i < numChars; i++){
-                  //random value used as position parameter
-                  tl.from(mySplitText.chars[i], 1, {delay: .7, opacity:0}, Math.random() * 2);
-                }
+                // for(var i = 0; i < numChars; i++){
+                //   //random value used as position parameter
+                //   tl.from(mySplitText.chars[i], 1, {delay: .7, opacity:0}, Math.random() * 2);
+                // }
 
                 //TweenMax.to('.bg', 3, {delay: 7.5, scaleX:.9, scaleY:.9, transformOrigin:"50% 50% 0", ease: Power3.easeOut});
 

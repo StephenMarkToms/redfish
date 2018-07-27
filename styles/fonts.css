@@ -1,58 +1,6 @@
 @font-face {
 
-	font-family: "Didot-Bold";
-	src: url("fonts/Didot-Bold.woff") format("woff");
-
-}
-
-@font-face {
-
-	font-family: "NHaasGroteskTXPro-55Rg";
-	src: url("fonts/NHaasGroteskTXPro-55Rg.woff") format("woff");
-
-}
-
-@font-face {
-
-	font-family: "NHaasGroteskTXPro-75Bd";
-	src: url("fonts/NHaasGroteskTXPro-75Bd.woff") format("woff");
-
-}
-
-
-
-@font-face {
-
-	font-family: "gordita-regular";
-	src: url("fonts/gordita-regular-webfont.woff") format("woff");
-
-}
-
-@font-face {
-
-	font-family: "gordita-bold";
-	src: url("fonts/gordita-bold-webfont.woff") format("woff");
-
-}
-
-@font-face {
-
-	font-family: "Canela-Light";
-	src: url("fonts/Canela-Light.woff") format("woff");
-
-}
-
-
-@font-face {
-
-	font-family: "Distorted-Fashion-Italic";
-	src: url("fonts/Distorted-Fashion-Italic.woff") format("woff");
-
-}
-
-@font-face {
-
-	font-family: "Distorted-Fashion-Regular";
-	src: url("fonts/Distorted-Fashion-Regular.ttf") format("ttf");
+	font-family: "baskerville";
+	src: url("fonts/baskerville.ttf") format("ttf");
 
 }
