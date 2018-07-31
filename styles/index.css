@@ -25,6 +25,15 @@ body {
 }
 
 
+.logo-sub{
+
+    letter-spacing: .02em;
+    position: absolute;
+    top: 9.5vh;
+    left: 12vw;
+
+}
+
 p{
 
 	font-size: 1.5em;
