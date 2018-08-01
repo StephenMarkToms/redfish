@@ -6,7 +6,11 @@ body {
 
 
  	
- 	background-color: #fae6de;
+ 	background-color: #efcabe;
+ 	
+ 	/*
+ 	background-image: url('../imgs/bg-texture.jpg');
+	*/
 
   	color: #000;
   	font-family: 'baskerville', serif;
@@ -15,7 +19,7 @@ body {
 
 	height: 100%;
 	margin: 0;
-	background-repeat: no-repeat;
+	background-repeat: repeat;
 	background-attachment: fixed;
 
 	overflow-x:hidden;
@@ -29,8 +33,9 @@ body {
 
     letter-spacing: .02em;
     position: absolute;
-    top: 9.5vh;
-    left: 12vw;
+    top: 3.3em;
+    left: 3.2em;
+    font-size: 0.6em;
 
 }
 
@@ -68,7 +73,7 @@ p{
 
 .header-bg{
 
-	background-color: #ecc7bb;
+	background-color: #fae6de;
 	height: 45vh;
 	margin-top: -15em;
 	margin-right: 0;
@@ -79,10 +84,10 @@ p{
 
 .hero-img{
 
-	background-color: green;
-	margin-top: -30%;
-	height: 78vh;
-	margin-bottom: 0;
+	background-color: #a16d5b;
+    margin-top: -13vh;
+    height: 78vh;
+    margin-bottom: 0;
 
 }
 
@@ -119,14 +124,13 @@ p{
 
 }
 
-.weddings-hero{
+.family-hero{
 
-	background-image: url("../imgs/weddings-hero.jpg");
-
-	background-size: 50vh;
-	background-repeat: no-repeat;
-	background-position: 80% 10%;
-	overflow: hidden;
+	background-image: url(../imgs/family-hero.jpg);
+    background-size: 54vh;
+    background-repeat: no-repeat;
+    background-position: 45% 70%;
+    overflow: hidden;
 
 }
 
@@ -208,3 +212,49 @@ a:hover {
 
 
 
+.portrait-header{
+
+	background-image: url(../imgs/portrait-hero.jpg);
+	background-color: #efcabe;
+    background-size: 60vh;
+    background-repeat: no-repeat;
+    background-position: 50% 91%;
+    overflow: hidden;
+    margin-top: -33vh;
+    height: 78vh;
+
+}
+
+.portrait-header p{
+
+	margin-top: 36vh;
+    margin-left: 0vw;
+    color: white;
+    text-align: center;
+
+
+}
+
+
+.main-cap{
+
+	border: solid 1px blue;
+	margin-left: -2em;
+	
+}
+
+.sub-cap{
+
+	border: solid 1px red;
+	margin-left: 2em;
+	font-family: 'sabon', serif;
+	font-style: italic;
+
+}
+
+.image-tile{
+
+	width: 100vw;
+	border: solid 1px red;
+
+}
