@@ -238,23 +238,35 @@ a:hover {
 
 .main-cap{
 
-	border: solid 1px blue;
+
 	margin-left: -2em;
 	
 }
 
 .sub-cap{
 
-	border: solid 1px red;
+
 	margin-left: 2em;
 	font-family: 'sabon', serif;
 	font-style: italic;
+	font-size: 1.7em;
 
 }
 
 .image-tile{
 
 	width: 100vw;
-	border: solid 1px red;
+
+    box-shadow: 0 2em #fae6de;
+    margin-bottom: 3em;
+
+}
+
+.v-Line{
+
+	background-color: #a27f74;
+	width: .05em;
+    height: 6em;
+    margin-top: -21vh;
 
 }
