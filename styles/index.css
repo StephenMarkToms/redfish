@@ -75,7 +75,7 @@ p{
 
 	background-color: #fae6de;
 	height: 45vh;
-	margin-top: -15em;
+	margin-top: -11em;
 	margin-right: 0;
 
 }
@@ -84,7 +84,7 @@ p{
 
 .hero-img{
 
-	background-color: #a16d5b;
+	/*background-color: #a16d5b;*/
     margin-top: -13vh;
     height: 78vh;
     margin-bottom: 0;
@@ -94,7 +94,6 @@ p{
 .portrait-hero{
 
 	background-image: url("../imgs/portrait-hero.jpg");
-
 	background-size: 50vh;
 	background-repeat: no-repeat;
 	background-position: 30%;
@@ -214,24 +213,21 @@ a:hover {
 
 .portrait-header{
 
-	background-image: url(../imgs/portrait-hero.jpg);
-	background-color: #efcabe;
-    background-size: 60vh;
-    background-repeat: no-repeat;
-    background-position: 50% 91%;
+    background-color: #efcabe;
     overflow: hidden;
-    margin-top: -33vh;
-    height: 78vh;
+    object-fit: cover;
+    margin-top: -50vh;
+    height: 95vh;
+    width: 100vw;
 
 }
 
-.portrait-header p{
 
-	margin-top: 36vh;
-    margin-left: 0vw;
+.header-text{
+
     color: white;
     text-align: center;
-
+    margin-top: -47vh;
 
 }
 
@@ -265,8 +261,47 @@ a:hover {
 .v-Line{
 
 	background-color: #a27f74;
+	border-left: 1px solid #a27f74;
 	width: .05em;
     height: 6em;
     margin-top: -21vh;
+
+}
+
+.end-image{
+
+	width: 100vw;
+
+}
+
+.end-text{
+
+	font-size: 17vw;
+
+}
+
+
+
+@media (max-width: 576px) { 
+
+
+	.navbar{
+
+		background: #fae6de;
+	    border-bottom: #cda99d solid .3em;
+
+	}
+
+	.navbar-nav .nav-link{
+
+		padding-right: 0;
+	    text-align: center;
+	    font-size: 1.5em;
+	    font-weight: inherit;
+	    padding-left: 0;
+
+	}
+
+
 
 }
