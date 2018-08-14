@@ -35,6 +35,7 @@ body {
     position: absolute;
     top: 3.3em;
     left: 3.2em;
+    top: 4.3em;
     font-size: 0.6em;
 
 }
@@ -67,7 +68,7 @@ p{
 
 	background-color: #cda99d;
     border: 0 none;
-    height: 10px;
+    height: 4px;
 
 }
 
@@ -75,7 +76,8 @@ p{
 
 	background-color: #fae6de;
 	height: 45vh;
-	margin-top: -14vh;
+	
+	margin-top: -35vh;
 	margin-right: 0;
 
 }
@@ -123,9 +125,9 @@ p{
 
 }
 
-.family-hero{
+.weddings-hero{
 
-	background-image: url(../imgs/family-hero.jpg);
+	background-image: url(../imgs/weddings-hero.jpg);
     background-size: 54vh;
     background-repeat: no-repeat;
     background-position: 45% 70%;
@@ -211,95 +213,285 @@ a:hover {
 
 
 
-.portrait-header{
 
-    background-color: #efcabe;
-    overflow: hidden;
-    object-fit: cover;
-    margin-top: -50vh;
-    height: 95vh;
-    width: 100vw;
+
+/*desktop layouts */
+
+
+.d-gallery{
+
+	margin-top: 23vh;
+    margin-left: 6vw;
 
 }
 
+.mobile-only{
+
+	display: none;
+
+}
+
+.portrait-header{
+
+	margin-top: -35vh;
+    content: url(../imgs/portrait-hero-d.jpg);
+    position: absolute;
+    right: 21vw;
+    top: 56vh;
+    width: 36%;
+    height: auto;
+
+}
+
+
+
+.main-title span {
+  display: none;
+}
+.main-title:after {
+
+    content: 'Essence of you';
+    font-size: 10vw;
+    transform: rotate(-90deg);
+
+
+}
+
+.main-title{
+
+	transform: rotate(-90deg);
+    color: #b28e82;
+    position: absolute;
+    right: -20vw;
+    top: 16vw;
+
+
+}
+
+
+
+
+.navbar-nav .nav-link{
+
+	padding-right: 0;
+    text-align: center;
+    font-size: 1.5em;
+    font-weight: inherit;
+    padding-left: 0;
+    margin-right: 2em;
+
+}
+
+.navbar{
+
+		background: #fae6de;
+	    
+
+	}
 
 .header-text{
 
-    color: white;
-    text-align: center;
-    margin-top: -47vh;
+	display: none;
+
+}
+
+.desktop-only{
+
+	display: block;
 
 }
 
 
-.main-cap{
+.desktop-intro h1{
 
+	font-size: 6vw;
+    margin-left: 6vw
 
-	margin-left: -2em;
-	
 }
 
-.sub-cap{
+.desktop-intro{
 
+	left: 1vw;
+	color: #62473d;
 
+}
+
+.desktop-intro p{
+
+	color: #62473d;
 	margin-left: 2em;
-	font-family: 'sabon', serif;
-	font-style: italic;
-	font-size: 1.7em;
 
 }
 
-.image-tile{
+.desktop-intro span{
 
-	width: 100vw;
-
-    box-shadow: 0 2em #fae6de;
-    margin-bottom: 3em;
-
-}
-
-.v-Line{
-
-	background-color: #a27f74;
-	border-left: 1px solid #a27f74;
-	width: .05em;
-    height: 6em;
-    margin-top: -21vh;
-
-}
-
-.end-image img{
-
-	width: 100vw;
-	margin-bottom: 0;
-	margin-top: -80vh;
+	margin-left: 3vw;
 
 }
 
 
-.end-image{
-
-	z-index: -1;
-
-}
-
-.end-text{
-
-	margin-top: 10vh;
-	color: white;
-
-}
-
-.end-text h1{
-
-	font-size: 17vw;
-
-}
 
 
+
+
+
+
+/* mobile layouts */
 
 
 @media (max-width: 576px) { 
+
+
+	.desktop-only{
+
+		display: none;
+
+	}
+
+	.mobile-only{
+
+		display: block;
+
+	}
+
+	.header-text{
+
+	display: block;
+
+	}
+
+
+	.main-title span{
+	  
+		display: block;
+
+	}
+
+	.main-title:after{
+
+		display: none;
+
+	}
+	
+
+	.main-title{
+
+		position: relative;
+		color: black;
+		transform: rotate(0deg);
+		top: 0;
+		right: 0;
+
+	}
+
+
+	.logo-sub{
+    	top: 3.3em;
+    }
+
+
+
+	.header-bg{
+
+		margin-top: -14vh;
+
+	}
+
+
+	.portrait-header{
+
+		position: relative;
+
+		top: 0;
+		left:0;
+
+		content:url("../imgs/portrait-hero.jpg");
+
+	    background-color: #efcabe;
+	    overflow: hidden;
+	    object-fit: cover;
+	    margin-top: -50vh;
+	    height: 95vh;
+	    width: 100vw;
+
+	}
+
+
+	.header-text{
+
+	    color: white;
+	    text-align: center;
+	    margin-top: -47vh;
+
+	}
+
+
+	.main-cap{
+
+
+		margin-left: -2em;
+		
+	}
+
+	.sub-cap{
+
+
+		margin-left: 2em;
+		font-family: 'sabon', serif;
+		font-style: italic;
+		font-size: 1.7em;
+
+	}
+
+	.image-tile{
+
+		width: 100vw;
+
+	    box-shadow: 0 2em #fae6de;
+	    margin-bottom: 3em;
+
+	}
+
+	.v-Line{
+
+		background-color: #a27f74;
+		border-left: 1px solid #a27f74;
+		width: .05em;
+	    height: 6em;
+	    margin-top: -21vh;
+
+	}
+
+	.end-image img{
+
+		width: 100vw;
+		margin-bottom: 0;
+		margin-top: -80vh;
+
+	}
+
+
+	.end-image{
+
+		z-index: -1;
+
+	}
+
+	.end-text{
+
+		margin-top: 10vh;
+		color: white;
+
+	}
+
+	.end-text h1{
+
+		font-size: 17vw;
+
+	}
+
+
+
 
 
 	.navbar{
