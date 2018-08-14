@@ -236,10 +236,11 @@ a:hover {
 	margin-top: -35vh;
     content: url(../imgs/portrait-hero-d.jpg);
     position: absolute;
-    right: 21vw;
+    right: 27vw;
     top: 56vh;
     width: 36%;
     height: auto;
+    max-width: 457px;
 
 }
 
@@ -251,9 +252,9 @@ a:hover {
 .main-title:after {
 
     content: 'Essence of you';
-    font-size: 10vw;
+    font-size: 8vw;
     transform: rotate(-90deg);
-
+    margin-right: 24vw;
 
 }
 
@@ -262,8 +263,8 @@ a:hover {
 	transform: rotate(-90deg);
     color: #b28e82;
     position: absolute;
-    right: -20vw;
-    top: 16vw;
+    right: -17vw;
+    /*top: 16vw;*/
 
 
 }
@@ -304,8 +305,10 @@ a:hover {
 
 .desktop-intro h1{
 
-	font-size: 6vw;
+	font-weight: 500;
+	font-size: 4vw;
     margin-left: 6vw
+
 
 }
 
@@ -313,6 +316,7 @@ a:hover {
 
 	left: 1vw;
 	color: #62473d;
+	margin-left: 3vw;
 
 }
 
@@ -320,12 +324,37 @@ a:hover {
 
 	color: #62473d;
 	margin-left: 2em;
+	font-size: 1.4vw;
 
 }
 
 .desktop-intro span{
 
 	margin-left: 3vw;
+
+}
+
+.d-gallery{
+
+    padding-right: 2vw;
+
+}
+
+.left-img1{
+
+	width: 30vw;
+	height: auto;
+	margin-left: -2vw;
+
+}
+
+.right-img1{
+
+	width: 55vw;
+    height: auto;
+    position: absolute;
+    right: 0;
+    margin-top: 24vh;
 
 }
 
