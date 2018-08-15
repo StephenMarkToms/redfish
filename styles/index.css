@@ -354,12 +354,12 @@ a:hover {
 	position: absolute;
     right: -5%;
     width: 100%;
-    margin-top: 17%;
-    letter-spacing: 1.5em;
+    margin-top: 19%;
+    letter-spacing: .5em;
     font-size: 4vw;
     /* transform: rotate(-90deg); */
     color: #f2eceaad;
-    line-height: 7vw;
+    line-height: 9vw;
     font-style: italic;
 
 }
