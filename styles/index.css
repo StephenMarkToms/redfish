@@ -250,14 +250,7 @@ a:hover {
 .main-title span {
   display: none;
 }
-.main-title:after {
 
-    content: 'THE ESSENCE OF YOU';
-    font-size: 4vw;
-    transform: rotate(-90deg);
-    margin-right: 32vw;
-
-}
 
 .main-title{
 
@@ -341,6 +334,37 @@ a:hover {
 
 }
 
+
+.gallery-side-text{
+
+	position: absolute;
+    right: 0%;
+    margin-top: -6%;
+    letter-spacing: 0.2em;
+    font-size: 4vw;
+    /* transform: rotate(-90deg); */
+    color: #ffffff;
+    line-height: 7vw;
+    font-style: italic;
+
+}
+
+.background-text{
+
+	position: absolute;
+    right: -5%;
+    width: 100%;
+    margin-top: 17%;
+    letter-spacing: 1.5em;
+    font-size: 4vw;
+    /* transform: rotate(-90deg); */
+    color: #f2eceaad;
+    line-height: 7vw;
+    font-style: italic;
+
+}
+	
+
 .gallery-hero{
 
 	height: auto;
@@ -371,6 +395,7 @@ a:hover {
     left: 13%;
     width: 41%;
     margin-top: 2vh;
+    z-index: -1;
 
 }
 
@@ -398,6 +423,7 @@ a:hover {
     left: 28%;
     margin-top: 185%;
     position: absolute;
+    z-index: -1;
 
 }
 
