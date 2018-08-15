@@ -263,11 +263,10 @@ a:hover {
 
 	color: #b28e82;
     position: absolute;
-    right: -21%;
-    margin-top: 30%;
+    right: -20%;
+    margin-top: 26%;
     z-index: 200;
     color: #fae6de;
-    /*transform: rotate(-23deg);*/
 
 }
 
@@ -349,7 +348,17 @@ a:hover {
     max-width: 603px;
     left: 57.5%;
     width: 55%;
-    margin-top: -48%;
+    margin-top: -52%;
+
+}
+
+.gallery-texture{
+
+	height: auto;
+    position: absolute;
+    left: 113%;
+    width: 23.9%;
+    margin-top: -50%;
 
 }
 
@@ -376,7 +385,7 @@ a:hover {
 
 .gallery-img3{
 
-    width: 50vw;
+    width: 51vw;
     left: 116%;
     margin-top: 74%;
     position: absolute;
