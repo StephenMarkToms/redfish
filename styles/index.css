@@ -220,8 +220,7 @@ a:hover {
 
 .d-gallery{
 
-	margin-top: 23vh;
-    margin-left: 6vw;
+	
 
 }
 
@@ -236,11 +235,13 @@ a:hover {
 	margin-top: -35vh;
     content: url(../imgs/portrait-hero-d.jpg);
     position: absolute;
-    right: 27vw;
+    right: 26vw;
     top: 56vh;
     width: 36%;
     height: auto;
-    max-width: 457px;
+    max-width: 515px;
+
+    display: none;
 
 }
 
@@ -251,21 +252,22 @@ a:hover {
 }
 .main-title:after {
 
-    content: 'Essence of you';
-    font-size: 8vw;
+    content: 'THE ESSENCE OF YOU';
+    font-size: 4vw;
     transform: rotate(-90deg);
-    margin-right: 24vw;
+    margin-right: 32vw;
 
 }
 
 .main-title{
 
-	transform: rotate(-90deg);
-    color: #b28e82;
+	color: #b28e82;
     position: absolute;
-    right: -17vw;
-    /*top: 16vw;*/
-
+    right: -21%;
+    margin-top: 30%;
+    z-index: 200;
+    color: #fae6de;
+    /*transform: rotate(-23deg);*/
 
 }
 
@@ -340,23 +342,56 @@ a:hover {
 
 }
 
-.left-img1{
+.gallery-hero{
 
-	width: 30vw;
 	height: auto;
-	margin-left: -2vw;
-
-}
-
-.right-img1{
-
-	width: 55vw;
-    height: auto;
     position: absolute;
-    right: 0;
-    margin-top: 24vh;
+    max-width: 603px;
+    left: 57.5%;
+    width: 55%;
+    margin-top: -48%;
 
 }
+
+
+.gallery-img1{
+
+	height: auto;
+    position: absolute;
+    max-width: 517px;
+    left: 13%;
+    width: 41%;
+    margin-top: 2vh;
+
+}
+
+.gallery-img2{
+
+    width: 81%;
+    left: 28%;
+    margin-top: 122%;
+    position: absolute;
+
+}
+
+.gallery-img3{
+
+    width: 50vw;
+    left: 116%;
+    margin-top: 74%;
+    position: absolute;
+
+}
+
+.gallery-img4{
+
+    width: 81%;
+    left: 28%;
+    margin-top: 185%;
+    position: absolute;
+
+}
+
 
 
 
@@ -410,6 +445,8 @@ a:hover {
 		transform: rotate(0deg);
 		top: 0;
 		right: 0;
+		margin-top: 0;
+
 
 	}
 
@@ -430,6 +467,8 @@ a:hover {
 	.portrait-header{
 
 		position: relative;
+
+		display: block;
 
 		top: 0;
 		left:0;
