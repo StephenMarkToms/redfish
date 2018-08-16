@@ -338,14 +338,13 @@ a:hover {
 .gallery-side-text{
 
 	position: absolute;
-    right: 0%;
-    margin-top: -6%;
+    right: -8%;
+    margin-top: -11%;
     letter-spacing: 0.2em;
-    font-size: 4vw;
-    /* transform: rotate(-90deg); */
-    color: #ffffff;
+    font-size: 4.5vw;
+    transform: rotate(-90deg);
+    color: #9a7f76;
     line-height: 7vw;
-    font-style: italic;
 
 }
 
@@ -412,7 +411,7 @@ a:hover {
 
     width: 51vw;
     left: 116%;
-    margin-top: 74%;
+    margin-top: 71%;
     position: absolute;
 
 }
@@ -422,6 +421,47 @@ a:hover {
     width: 81%;
     left: 28%;
     margin-top: 185%;
+    position: absolute;
+    z-index: -1;
+
+}
+
+.gallery-img5{
+
+    width: 74%;
+    left: 116%;
+    margin-top: 222%;
+    position: absolute;
+    z-index: 200;
+
+}
+
+.gallery-img6{
+
+    width: 100%;
+    left: 171.6%;
+    margin-top: 319%;
+    position: absolute;
+    z-index: -1;
+
+}
+
+.gallery-img7{
+
+    width: 141%;
+    left: 25.6%;
+    margin-top: 325%;
+    position: absolute;
+    z-index: 200;
+
+}
+
+
+.gallery-img8{
+
+    width: 73%;
+    left: 193%;
+    margin-top: 217%;
     position: absolute;
     z-index: -1;
 
