@@ -512,10 +512,17 @@ a:hover {
     padding-bottom: .5em;
     font-style: italic;
     font-weight: 600;
-    letter-spacing: 1.4em;
+    letter-spacing: .7em;
 
 }
 
+
+.parallax{
+
+
+	width: 100%;
+
+}
 
 
 
