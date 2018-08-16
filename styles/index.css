@@ -372,6 +372,7 @@ a:hover {
     left: 57.5%;
     width: 55%;
     margin-top: -52%;
+    border-bottom: 5px solid #d8909a;
 
 }
 
@@ -395,6 +396,8 @@ a:hover {
     width: 41%;
     margin-top: 2vh;
     z-index: -1;
+    border-bottom: 5px solid #879e8b;
+
 
 }
 
@@ -404,6 +407,7 @@ a:hover {
     left: 28%;
     margin-top: 122%;
     position: absolute;
+    border-bottom: 5px solid #b97575;
 
 }
 
@@ -413,6 +417,7 @@ a:hover {
     left: 116%;
     margin-top: 71%;
     position: absolute;
+    border-bottom: 5px solid #75afd4;
 
 }
 
@@ -423,6 +428,7 @@ a:hover {
     margin-top: 185%;
     position: absolute;
     z-index: -1;
+    border-bottom: 5px solid #769fcc;
 
 }
 
@@ -433,26 +439,29 @@ a:hover {
     margin-top: 222%;
     position: absolute;
     z-index: 200;
+    border-bottom: 5px solid #ce937d;
 
 }
 
 .gallery-img6{
 
-    width: 100%;
-    left: 171.6%;
-    margin-top: 319%;
+    width: 101%;
+    left: 171%;
+    margin-top: 322%;
     position: absolute;
     z-index: -1;
+    border-bottom: 5px solid #b0b29b;
 
 }
 
 .gallery-img7{
 
-    width: 141%;
-    left: 25.6%;
-    margin-top: 325%;
+    width: 142%;
+    left: 24%;
+    margin-top: 329%;
     position: absolute;
     z-index: 200;
+    border-bottom: 5px solid #e09087;
 
 }
 
@@ -461,11 +470,52 @@ a:hover {
 
     width: 73%;
     left: 193%;
-    margin-top: 217%;
+    margin-top: 216%;
     position: absolute;
     z-index: -1;
+    border-bottom: 5px solid #62473d;
 
 }
+
+.testimonials{
+
+	margin-top: 158%;
+    padding-left: 8%;
+    padding-right: 8%;
+    padding-top: 8%;
+    padding-bottom: 8%;
+    text-align: center;
+    background-color: #fdefea;
+    border-bottom: 5px solid #62473d;
+
+
+}
+
+.testimonials p{
+
+	font-style: italic;
+	color: #62473d;
+    margin-bottom: .5em;
+    padding-bottom: 1em;
+    border-top: 1px solid #62473d;
+    border-bottom: 1px solid #62473d;
+    font-size: 1.5em;
+    padding-top: 1em;
+
+}
+
+.testimonials h1{
+
+
+	color: #c1a69c;
+    margin-bottom: .5em;
+    padding-bottom: .5em;
+    font-style: italic;
+    font-weight: 600;
+    letter-spacing: 1.4em;
+
+}
+
 
 
 
