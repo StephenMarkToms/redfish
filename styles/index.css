@@ -562,6 +562,21 @@ a:hover {
 }
 
 
+.mobile-para{
+
+
+	color: #4b4948;
+    text-align: center;
+    padding-top: 16vh;
+    padding-bottom: 16vh;
+    font-size: 6vw;
+    padding-left: 7vw;
+    padding-right: 12vw;
+
+
+}
+
+
 
 
 
@@ -610,11 +625,13 @@ a:hover {
 	.main-title{
 
 		position: relative;
-		color: black;
-		transform: rotate(0deg);
-		top: 0;
-		right: 0;
-		margin-top: 0;
+	    color: black;
+	    transform: rotate(0deg);
+	    top: 0;
+	    right: 0;
+	    margin-top: 0;
+	    padding-top: 10vh;
+	    padding-bottom: 12vh;
 
 
 	}
@@ -648,7 +665,7 @@ a:hover {
 	    overflow: hidden;
 	    object-fit: cover;
 	    margin-top: -50vh;
-	    height: 95vh;
+	    height: 96vh;
 	    width: 100vw;
 
 	}
