@@ -570,6 +570,7 @@ a:hover {
     padding-right: 18vw;
     margin-top: 15%;
     padding-bottom: 24%;
+
     
 
 }
@@ -585,9 +586,23 @@ a:hover {
 
 }
 
+.contact-submit{
+
+	border: solid 0px #664e4a;
+    border-radius: 7px;
+    font-size: 1.2em;
+    margin-top: 1em;
+    padding: 2px 13px 2px 13px;
+    font-style: initial;
+
+}
+
 .contact-label{
 
-	font-family: 'Cantata One', serif;
+	font-family: 'Prata', serif;
+	color: #714b3f;
+	text-align: left;
+	font-size: 2vw;
 
 }
 
@@ -600,11 +615,12 @@ a:hover {
 	text-align: center;
     margin-top: -26%;
     font-size: 3vw;
-    font-style: italic;
+    font-style: bold;
     font-size: 3.8vw;
     color: #62473d;
     padding-bottom: 20%;
     border-bottom: 5px solid #62473d;
+
 
 }
 
