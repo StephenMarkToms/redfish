@@ -337,14 +337,14 @@ a:hover {
 
 .gallery-side-text{
 
-	position: absolute;
-    right: -8%;
-    margin-top: -11%;
-    letter-spacing: 0.2em;
-    font-size: 4.5vw;
+    position: absolute;
+    right: -2%;
+    margin-top: -5%;
+    font-size: 4.8vw;
     transform: rotate(-90deg);
     color: #9a7f76;
-    line-height: 7vw;
+    font-style: italic;
+    line-height: 8vw;
 
 }
 
@@ -521,6 +521,7 @@ a:hover {
 
 
 	width: 100%;
+	opacity: .6;
 
 }
 
