@@ -337,8 +337,8 @@ a:hover {
 
 	font-weight: 500;
 	font-size: 4vw;
-    margin-left: 6vw
-
+    margin-left: 6vw;
+    font-family: 'Cantata One', serif;
 
 }
 
@@ -559,17 +559,51 @@ a:hover {
 
 	width: 100%;
 	opacity: .2;
+	z-index: -1;
 
+}
+
+.contact-form{
+
+	padding-left: 18vw;
+    padding-right: 18vw;
+    margin-top: 15%;
+    padding-bottom: 24%;
+    
+
+}
+
+.contact-btn{
+
+	color: #62473d;
+    background-color: #efcabe;
+    border: none;
+    font-size: 3vw;
+    font-style: italic;
+
+
+}
+
+.contact-label{
+
+	font-family: 'Cantata One', serif;
+
+}
+
+*:focus {
+    outline: 0 !important;
 }
 
 .parallax p{
 
 	text-align: center;
-    margin-top: -27%;
-    font-size: 4vw;
+    margin-top: -26%;
+    font-size: 3vw;
     font-style: italic;
-    font-family: 'Ramaraja', serif;
+    font-size: 3.8vw;
     color: #62473d;
+    padding-bottom: 20%;
+    border-bottom: 5px solid #62473d;
 
 }
 
