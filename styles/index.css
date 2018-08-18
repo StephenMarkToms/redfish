@@ -361,6 +361,7 @@ a:hover {
 .desktop-intro span{
 
 	margin-left: 3vw;
+	font-family: 'Ramaraja', serif;
 
 }
 
@@ -553,11 +554,22 @@ a:hover {
 }
 
 
-.parallax{
+.parallax img{
 
 
 	width: 100%;
-	opacity: .6;
+	opacity: .2;
+
+}
+
+.parallax p{
+
+	text-align: center;
+    margin-top: -27%;
+    font-size: 4vw;
+    font-style: italic;
+    font-family: 'Ramaraja', serif;
+    color: #62473d;
 
 }
 

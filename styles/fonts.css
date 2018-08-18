@@ -1,5 +1,14 @@
 @font-face {
 
+	font-family: "bloom";
+	src: url("fonts/Gloss_And_Bloom.woff") format("woff");
+	src: url("fonts/Gloss_And_Bloom.ttf") format("ttf");
+
+}
+
+
+@font-face {
+
 	font-family: "baskerville";
 	src: url("fonts/baskerville.ttf") format("ttf");
 
