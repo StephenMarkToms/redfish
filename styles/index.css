@@ -566,12 +566,23 @@ a:hover {
 
 .contact-form{
 
-	padding-left: 18vw;
-    padding-right: 18vw;
+	padding-left: 7vw;
+    padding-right: 8vw;
     margin-top: 15%;
     padding-bottom: 24%;
 
     
+
+}
+
+.contact-form img{
+
+	transform: rotate(180deg);
+    height: 63vw;
+    margin-bottom: -40%;
+    margin-top: 18%;
+    margin-left: 46vw;
+    position: absolute;
 
 }
 
@@ -582,6 +593,7 @@ a:hover {
     border: none;
     font-size: 3vw;
     font-style: italic;
+    padding-bottom: 8%;
 
 
 }
