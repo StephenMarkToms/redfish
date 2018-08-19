@@ -598,14 +598,45 @@ a:hover {
 
 }
 
+.footer{
+
+	padding-left: 3vw;
+    padding-top: .5em;
+    font-size: .7em;
+    background-color: #fae6de;
+    border-top: 2px solid #cda99d;
+
+}
+
+.footer span{
+
+	position: absolute;
+    margin-left: 88vw;
+    margin-top: -2.5%;
+
+}
+
+.footer a{
+
+	font-family: Prata;
+    font-weight: 600;
+    padding-right: 1em;
+
+}
+
 .contact-submit{
 
-	border: solid 0px #664e4a;
-    border-radius: 7px;
+	color: #958580;
+	width: 100%;
+    border: solid 0px #664e4a;
+    background-color: #ad8b87;
+    color: ##fff0ef;
+    border-radius: 1px;
     font-size: 1.2em;
+    font-weight: bolder;
     margin-top: 1em;
     padding: 2px 13px 2px 13px;
-    font-style: initial;
+    font-style: italic;
 
 }
 
