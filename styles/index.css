@@ -612,15 +612,25 @@ a:hover {
 
 	position: absolute;
     margin-top: 50%;
-    margin-left: 25vw;
+    margin-left: 18vw;
 
 }
 
 .footer .footer-links i{
 
-	margin-left: 11vw;
-	border-bottom: 5px solid #ffdecd;
+	margin-left: 14vw;
+	/*border-bottom: 5px solid #ffdecd;*/
 
+
+}
+
+.footer-divider{
+
+	border-bottom: 1px solid #735d4e;
+    width: 62vw;
+    position: absolute;
+    margin-top: 53%;
+    margin-left: 11vw;
 
 }
 
@@ -664,7 +674,6 @@ a:hover {
     color: ##fff0ef;
     border-radius: 1px;
     font-size: 1.2em;
-    font-weight: bolder;
     margin-top: 1em;
     padding: 2px 13px 2px 13px;
     font-style: italic;
@@ -727,6 +736,23 @@ a:hover {
 
 
       width: 25vw;
+
+}
+
+.works p{
+
+
+	margin-top: -73%;
+    color: white;
+    padding-left: 3vw;
+    font-size: 2vw;
+
+
+}
+
+.works span{
+
+	margin-left: 5.5vw;
 
 }
 
@@ -927,7 +953,7 @@ a:hover {
 	    padding-left: 0;
 
 
-	    
+
 
 	}
 
