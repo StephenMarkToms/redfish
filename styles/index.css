@@ -600,33 +600,64 @@ a:hover {
 
 .footer{
 
-	padding-left: 3vw;
-    padding-top: .5em;
+	padding-left: 11vw;
+    padding-top: 8.5em;
     font-size: .7em;
-    background-color: #fae6de;
-    border-top: 2px solid #cda99d;
+
+
+}
+
+
+.footer .footer-links{
+
+	position: absolute;
+    margin-top: 50%;
+    margin-left: 25vw;
+
+}
+
+.footer .footer-links i{
+
+	margin-left: 11vw;
+	border-bottom: 5px solid #ffdecd;
+
+
+}
+
+
+
+.footer a{
+
+    font-size: 1.4vw;
+    color: #79655f;
+    font-weight: 600;
+    font-style: italic;
+    letter-spacing: 0.5vw;
+    padding-right: 2em;
+
+}
+
+
+.footer .fab{
+
+	color: #79655f;
 
 }
 
 .footer span{
 
-	position: absolute;
-    margin-left: 88vw;
-    margin-top: -2.5%;
 
-}
-
-.footer a{
-
-	font-family: Prata;
+	font-size: 1.4vw;
+    color: #79655f;
     font-weight: 600;
-    padding-right: 1em;
+    font-style: italic;
+    letter-spacing: 1.5vw;
 
 }
 
 .contact-submit{
 
-	color: #958580;
+	color: #eae7e7;
 	width: 100%;
     border: solid 0px #664e4a;
     background-color: #ad8b87;
@@ -894,6 +925,9 @@ a:hover {
 	    font-size: 1.5em;
 	    font-weight: inherit;
 	    padding-left: 0;
+
+
+	    
 
 	}
 
