@@ -29,6 +29,12 @@ body {
 
 }
 
+.barba-container{
+
+	visibility:hidden;
+
+}
+
 
 
 /* This used to work for the parent element of button divs */

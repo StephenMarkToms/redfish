@@ -1,6 +1,13 @@
 document.addEventListener("DOMContentLoaded", function() {
+
+
  
   $( document ).ready(function() {
+
+
+    //set content visible after loading
+     $('.barba-container').css('visibility','visible');
+
 
     var wScreen = $(window).width(),
         midScreen = wScreen /2,
@@ -117,7 +124,9 @@ document.addEventListener("DOMContentLoaded", function() {
       
       
       //test to find what page it is
-      //TweenMax.from('.holder', 1.6, {delay: 1, alpha: 0, y: "+=50"}) 
+      TweenMax.from('.portrait-hero', .75, {delay: .5, alpha: 0, y: "+=30", ease:Power3.easeOut}) 
+      TweenMax.from('.couples-hero', .75, {delay: .7, alpha: 0, y: "+=30", ease:Power3.easeOut}) 
+      TweenMax.from('.weddings-hero', .75, {delay: 1, alpha: 0, y: "+=30", ease:Power3.easeOut}) 
 
 
       //check to see what page is loading and then switch the variable below appropriately
