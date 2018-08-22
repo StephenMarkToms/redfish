@@ -1,5 +1,10 @@
+
+
 module.exports = function(grunt) {
 
+
+require('load-grunt-tasks')(grunt); // npm install --save-dev load-grunt-tasks
+ 
 
     grunt.initConfig({
         pkg: grunt.file.readJSON('package.json'),
@@ -59,6 +64,20 @@ module.exports = function(grunt) {
             }
         },
 
+        minifyHtml: {
+            options: {
+                cdata: true
+            },
+            dist: {
+                files: {
+                    'public/index.html': 'public/index.html',
+                    'public/portraits/index.html': 'public/portraits/index.html',
+                    'public/couples/index.html': 'public/couples/index.html',
+                    'public/weddings/index.html': 'public/weddings/index.html'
+                }
+            }
+        },
+
         includes: {
 
 
@@ -111,7 +130,6 @@ module.exports = function(grunt) {
 
 
         },
-
          
         watch: {
             options: {
@@ -131,7 +149,8 @@ module.exports = function(grunt) {
     grunt.loadNpmTasks('grunt-includes');
     grunt.loadNpmTasks('grunt-banner');
 
-    grunt.registerTask('default', ['uglify:dist','watch']);
+    grunt.registerTask('default', ['uglify:dist', 'watch']);
+    grunt.registerTask('html', ['minifyHtml']);
     grunt.registerTask('deploy', ['uglify:dist', 'sass:dist', 'usebanner']);
 
 };
