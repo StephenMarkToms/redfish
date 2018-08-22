@@ -127,6 +127,7 @@ p{
     margin-top: -13vh;
     height: 78vh;
     margin-bottom: 0;
+    cursor: pointer;
 
 }
 
@@ -140,13 +141,22 @@ p{
 
 }
 
+
+
+
+
+
+
 .hero-img p{
 
-	transform: rotate(-90deg);
-	margin: 3.2em 0 1em 1em;
+	/*transform: rotate(-90deg);*/
+	margin: 51vh 0 0 0;
 	color: white;
 	padding: 0;
 	font-size: 3em;
+	font-style: italic;
+	text-align: center;
+
 
 }
 
@@ -157,7 +167,7 @@ p{
 
 	background-size: 50vh;
 	background-repeat: no-repeat;
-	background-position: 30% 10%;
+	background-position: 65% 10%;
 	overflow: hidden;
 
 }
@@ -357,6 +367,8 @@ a:hover {
 	color: #62473d;
 	margin-left: 2em;
 	font-size: 1.4vw;
+ 	font-family: 'Amethysta', sans-serif;
+
 	
 
 }
@@ -412,7 +424,7 @@ a:hover {
     left: 57.5%;
     width: 55%;
     margin-top: -52%;
-    border-bottom: 5px solid #d8909a;
+    /*border-bottom: 5px solid #d8909a;*/
 
 }
 
@@ -686,7 +698,7 @@ a:hover {
 	font-family: 'Prata', serif;
 	color: #714b3f;
 	text-align: left;
-	font-size: 2vw;
+	font-size: 1.2vw;
 
 }
 
@@ -810,6 +822,13 @@ a:hover {
 }
 
 
+.image-container{
+
+	padding-left: 8vw;
+    padding-right: 16vw;
+    margin-left: 4vw;
+
+}
 
 
 
@@ -817,6 +836,24 @@ a:hover {
 
 
 @media (max-width: 576px) { 
+
+
+	.hero-img p{
+
+		transform: rotate(-90deg);
+		margin: 86vw 0 1em 1em;
+
+	}
+
+
+	.image-container{
+
+		padding-left: 0;
+	    padding-right: 0;
+	    margin-left: .25rem!important;
+	    margin-right: .25rem!important;
+		
+	}
 
 
 	.desktop-only{
@@ -922,7 +959,7 @@ a:hover {
 		margin-left: 2em;
 		font-family: 'sabon', serif;
 		font-style: italic;
-		font-size: 1.7em;
+		font-size: 1.2em;
 
 	}
 
