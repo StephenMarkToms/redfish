@@ -847,7 +847,8 @@ a:hover {
 	.hero-img p{
 
 		transform: rotate(-90deg);
-		margin: 86vw 0 1em 1em;
+	    margin: 86vw 0 1em -1em;
+	    width: 59vw;
 
 	}
 

@@ -67,28 +67,9 @@ document.addEventListener("DOMContentLoaded", function() {
 
             }
 
-            if(nameLastEnter == 'photo1') {     
-
-                //TweenMax.from('#title', 1, {delay: .5, y: "+=50", alpha: 0});
+            if(nameLastEnter == 'index') {     
 
                 
-                // var mySplitText = new SplitText("#intro", {delay: 3,type:"chars, words"}),
-                //     tl = new TimelineLite(),
-                //     numChars = mySplitText.chars.length;
-
-                // for(var i = 0; i < numChars; i++){
-                //   //random value used as position parameter
-                //   tl.from(mySplitText.chars[i], 1, {delay: .7, opacity:0}, Math.random() * 2);
-                // }
-
-                //TweenMax.to('.bg', 3, {delay: 7.5, scaleX:.9, scaleY:.9, transformOrigin:"50% 50% 0", ease: Power3.easeOut});
-
-                   
-                // var splitTitle = new SplitText("#nav", {type:"words"}),
-                //     t2 = new TimelineLite(),
-                //     numChars = splitTitle.words.length;
-
-                // TweenMax.staggerFrom(splitTitle.words, 1, {delay: 5.5, alpha: 0, y: "+=40"}, .5);
 
                 TweenMax.from('.thumb-post', 1.5, { delay: .5, y: "+=60", alpha:0, ease: Power2.easeOut}, 0.5);
                 TweenMax.from('#self', 1.5, { delay: 1, y: "+=60", alpha:0, ease: Power2.easeOut});
@@ -128,9 +109,21 @@ document.addEventListener("DOMContentLoaded", function() {
       TweenMax.from('.couples-hero', .75, {delay: .7, alpha: 0, y: "+=30", ease:Power3.easeOut}) 
       TweenMax.from('.weddings-hero', .75, {delay: 1, alpha: 0, y: "+=30", ease:Power3.easeOut}) 
 
+      var mySplitText = new SplitText(".portrait-hero p", {type:"chars,words, lines"}),
+      tl = new TimelineLite({delay:0.5});
+      tl.staggerFrom(mySplitText.chars, 0.5, {y:100, opacity:0}, 0.02);
+
+      var mySplitText = new SplitText(".couples-hero p", {type:"chars,words, lines"}),
+      t2 = new TimelineLite({delay:0.7});
+      t2.staggerFrom(mySplitText.chars, 0.5, {y:100, opacity:0}, 0.02);
+
+      var mySplitText = new SplitText(".weddings-hero p", {type:"chars,words, lines"}),
+      t3 = new TimelineLite({delay:0.7});
+      t3.staggerFrom(mySplitText.chars, 0.5, {y:100, opacity:0}, 0.02);
+
 
       //check to see what page is loading and then switch the variable below appropriately
-      nameLastEnter = 'photo1';
+      nameLastEnter = 'index';
 
       //instaFeed();
 
