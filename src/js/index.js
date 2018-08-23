@@ -44,10 +44,11 @@ document.addEventListener("DOMContentLoaded", function() {
           var deferred = Barba.Utils.deferred();
 
           
-          if(nameLast == 'box') {
+          if(nameLast == 'index') {
 
-              TweenMax.to('.holder',2,{alpha: 0, y: "+=50", ease: Power4.easeInOut, onComplete: function(){ deferred.resolve(); }}) //onComplete      
-              TweenMax.to('.bg', 1.6, {delay: .7, width:100, height:100, margin: 0, alpha: 0, transformOrigin: 50});
+              TweenMax.from('.portrait-hero', .75, {delay: .5, alpha: 0, y: "+=30", ease:Power3.easeOut}); 
+              TweenMax.from('.couples-hero', .75, {delay: .7, alpha: 0, y: "+=30", ease:Power3.easeOut});
+              TweenMax.from('.weddings-hero', .75, {delay: 1, alpha: 0, y: "+=30", ease:Power3.easeOut}); 
 
           }
           
@@ -61,18 +62,25 @@ document.addEventListener("DOMContentLoaded", function() {
       
         beforeEnter: function() {
 
-            if(nameLast == 'box') {
-                TweenMax.from('.box-text',1.6,{ opacity:0, ease: Power3.easeOut})
-                TweenMax.from('.photo1',1.6,{ opacity:0, ease: Power3.easeOut})
-
-            }
 
             if(nameLastEnter == 'index') {     
 
-                
 
-                TweenMax.from('.thumb-post', 1.5, { delay: .5, y: "+=60", alpha:0, ease: Power2.easeOut}, 0.5);
-                TweenMax.from('#self', 1.5, { delay: 1, y: "+=60", alpha:0, ease: Power2.easeOut});
+                TweenMax.from('.portrait-hero', .75, {delay: .5, alpha: 0, y: "+=30", ease:Power3.easeOut}); 
+                TweenMax.from('.couples-hero', .75, {delay: .7, alpha: 0, y: "+=30", ease:Power3.easeOut});
+                TweenMax.from('.weddings-hero', .75, {delay: 1, alpha: 0, y: "+=30", ease:Power3.easeOut}); 
+
+                var mySplitText = new SplitText(".portrait-hero p", {type:"chars,words, lines"}),
+                tl = new TimelineLite({delay:0.5});
+                tl.staggerFrom(mySplitText.chars, 0.5, {y:100, opacity:0}, 0.02);
+
+                var mySplitText = new SplitText(".couples-hero p", {type:"chars,words, lines"}),
+                t2 = new TimelineLite({delay:0.7});
+                t2.staggerFrom(mySplitText.chars, 0.5, {y:100, opacity:0}, 0.02);
+
+                var mySplitText = new SplitText(".weddings-hero p", {type:"chars,words, lines"}),
+                t3 = new TimelineLite({delay:0.7});
+                t3.staggerFrom(mySplitText.chars, 0.5, {y:100, opacity:0}, 0.02);
 
 
             }
@@ -102,24 +110,6 @@ document.addEventListener("DOMContentLoaded", function() {
     if(firstVisit){
 
       console.log("Its the viewers first visit");
-      
-      
-      //test to find what page it is
-      TweenMax.from('.portrait-hero', .75, {delay: .5, alpha: 0, y: "+=30", ease:Power3.easeOut}) 
-      TweenMax.from('.couples-hero', .75, {delay: .7, alpha: 0, y: "+=30", ease:Power3.easeOut}) 
-      TweenMax.from('.weddings-hero', .75, {delay: 1, alpha: 0, y: "+=30", ease:Power3.easeOut}) 
-
-      var mySplitText = new SplitText(".portrait-hero p", {type:"chars,words, lines"}),
-      tl = new TimelineLite({delay:0.5});
-      tl.staggerFrom(mySplitText.chars, 0.5, {y:100, opacity:0}, 0.02);
-
-      var mySplitText = new SplitText(".couples-hero p", {type:"chars,words, lines"}),
-      t2 = new TimelineLite({delay:0.7});
-      t2.staggerFrom(mySplitText.chars, 0.5, {y:100, opacity:0}, 0.02);
-
-      var mySplitText = new SplitText(".weddings-hero p", {type:"chars,words, lines"}),
-      t3 = new TimelineLite({delay:0.7});
-      t3.staggerFrom(mySplitText.chars, 0.5, {y:100, opacity:0}, 0.02);
 
 
       //check to see what page is loading and then switch the variable below appropriately
